@@ -21,10 +21,10 @@ section{
     width: 36%;
     float: left;
     margin-left: 5%;
-    padding: 80px 0 0 2%;
+    padding: 80px 0 80px 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 .anchor-button{
     text-decoration: none;
@@ -39,4 +39,21 @@ section{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.work-pic{
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    padding: 1%;
+}
+.work-pic img{
+    width: 100%;
+}
+footer{
+    text-align: center;
 }
