@@ -2,26 +2,29 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    text-align: justify;
+}
 .highlight{
-    color: mediumvioletred;
+    color: rgb(245, 51, 174);
     font-size: 60px;
 }
 h2{
     font-size: 40px;
 }
 section{
-    height: 900px;
+    height: 800px;
 }
 .header{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% 100%;
 }
 .half-width{
     width: 36%;
     float: left;
     margin-left: 5%;
-    padding: 80px 0 80px 2%;
+    padding: 2%;
 }
 .half-width img{
     width: 80%;
@@ -29,8 +32,8 @@ section{
 .anchor-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(270deg, orange, red);
-    border: 2px solid;
+    background-color: rgb(245, 51, 174);
+    border: 1px solid;
     border-radius: 5px;
     padding: 10px 30px;
     font-weight: 700;
@@ -38,22 +41,39 @@ section{
 .biography{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% 100%;
 }
 .latest-work{
+    height: 500px;
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: 100% 100%;
+}
+#center-heading{
+    text-align: center;
 }
 .work-pic{
     width: 29%;
     float: left;
-    margin-left: 2%;
+    margin: 2% 0 0 2%;
     padding: 1%;
 }
 .work-pic img{
     width: 100%;
 }
-footer{
+.footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align: center;
+}
+.footer p{
+    text-align: center;
+}
+#email-button{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: rgb(245, 51, 174);
+    display: inline-block;
+    padding: 20px 30px;
 }
