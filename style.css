@@ -1,21 +1,32 @@
 body{
-    margin: 0;
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 p{
     text-align: justify;
 }
-.highlight{
+#text-highlight{
     color: rgb(245, 51, 174);
     font-size: 60px;
 }
 h2{
     font-size: 40px;
 }
-section{
-    height: 800px;
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, orange, red);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-weight: 700;
 }
-.header{
+.link-button:hover{
+    color: indigo;
+    font-size: x-large;
+}
+header{
+    height: 700px;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -26,28 +37,26 @@ section{
     margin-left: 5%;
     padding: 2%;
 }
+.position{
+    position: relative;
+    top: 15%;
+}
 .half-width img{
     width: 80%;
 }
-.anchor-button{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(245, 51, 174);
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 10px 30px;
-    font-weight: 700;
-}
 .biography{
+    height: 800px;
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .latest-work{
+    clear: left;
     height: 500px;
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    padding-bottom: 5%;
 }
 #center-heading{
     text-align: center;
@@ -55,13 +64,14 @@ section{
 .work-pic{
     width: 29%;
     float: left;
-    margin: 2% 0 0 2%;
+    margin: auto;
     padding: 1%;
 }
 .work-pic img{
     width: 100%;
 }
 .footer{
+    height: 500px;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -70,10 +80,24 @@ section{
 .footer p{
     text-align: center;
 }
-#email-button{
-    border: 1px solid;
+#contact-info{
+    width: 20%;
+    height: 20%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px grey;
+    border-left: 5px solid;
     border-radius: 5px;
-    background-color: rgb(245, 51, 174);
+    border-image: linear-gradient(180deg, orange, red, orange);
+    border-image-slice: 1;
+    background-image: linear-gradient(90deg, orange, red);
     display: inline-block;
-    padding: 20px 30px;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+small{
+    color: grey;
+}
+span{
+    font-size: small;
 }
